@@ -78,7 +78,7 @@ bool GameLayer::init()
 		//this->addChild(ufoLayer);
 
 		//设置可触摸
-		//this->setTouchEnabled(true);
+		this->setTouchEnabled(true);
 
 		//执行任务计划
 		//this->schedule(schedule_selector(GameLayer::backgroundMove),0.01f);
@@ -112,7 +112,6 @@ bool GameLayer::ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent)
 
 void GameLayer::ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent)
 {
-    /*
 	if (this->planeLayer->isAlive)
 	{
 		CCPoint beginPoint=pTouch->getLocationInView(); 
@@ -133,7 +132,6 @@ void GameLayer::ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent)
 			this->planeLayer->MoveTo(toPoint); 
 		} 
 	}
-    */
 }
 
 void GameLayer::ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent)
