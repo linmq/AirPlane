@@ -11,7 +11,7 @@ GameLayer::GameLayer(void)
 	planeLayer=NULL;
     
 	bulletLayer=NULL;
-	//mutiBulletsLayer=NULL;
+	mutiBulletsLayer=NULL;
 	//controlLayer=NULL;
      
 	enemyLayer=NULL;
@@ -62,8 +62,8 @@ bool GameLayer::init()
 		this->bulletLayer->StartShoot();
 
 		//加入mutiBulletsLayer
-		//this->mutiBulletsLayer=MutiBulletsLayer::create();
-		//this->addChild(mutiBulletsLayer);
+		this->mutiBulletsLayer=MutiBulletsLayer::create();
+		this->addChild(mutiBulletsLayer);
 
 		//加入enemyLayer
 		this->enemyLayer=EnemyLayer::create();
@@ -478,7 +478,7 @@ void GameLayer::update(float dt)
 			CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/get_double_laser.mp3");
 			this->ufoLayer->RemoveMutiBullets(mutiBullets);
 			this->bulletLayer->StopShoot();
-			//this->mutiBulletsLayer->StartShoot();
+			this->mutiBulletsLayer->StartShoot();
 			this->bulletLayer->StartShoot(6.2f);
 		}
 	}

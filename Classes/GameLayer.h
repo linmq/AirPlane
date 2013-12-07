@@ -4,7 +4,7 @@
 #include "SimpleAudioEngine.h"
 #include "PlaneLayer.h"
 #include "BulletLayer.h"
-//#include "MutiBulletsLayer.h"
+#include "MutiBulletsLayer.h"
 //#include "ControlLayer.h"
 #include "UFOLayer.h"
 #include "EnemyLayer.h"
@@ -58,7 +58,7 @@ private:
 
 	PlaneLayer* planeLayer;
 	BulletLayer* bulletLayer;
-//	MutiBulletsLayer* mutiBulletsLayer;
+	MutiBulletsLayer* mutiBulletsLayer;
 //	ControlLayer* controlLayer;
 	UFOLayer* ufoLayer;
 	EnemyLayer* enemyLayer;

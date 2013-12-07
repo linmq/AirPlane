@@ -199,6 +199,7 @@
 		315AE89318537C1100D2ADC9 /* UFOLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE89118537C1100D2ADC9 /* UFOLayer.cpp */; };
 		315AE89818537FB000D2ADC9 /* GameOverLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE89418537FB000D2ADC9 /* GameOverLayer.cpp */; };
 		315AE89918537FB000D2ADC9 /* GameOverScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE89618537FB000D2ADC9 /* GameOverScene.cpp */; };
+		315AE89C1853813600D2ADC9 /* MutiBulletsLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE89A1853813600D2ADC9 /* MutiBulletsLayer.cpp */; };
 		379BB99517F03F3700829B88 /* CCActionFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */; };
 		379BB99617F03F3700829B88 /* CCActionFrameEasing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */; };
 		379BB99717F03F3700829B88 /* CCActionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB90017F03F3700829B88 /* CCActionManager.cpp */; };
@@ -658,6 +659,8 @@
 		315AE89518537FB000D2ADC9 /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverLayer.h; sourceTree = "<group>"; };
 		315AE89618537FB000D2ADC9 /* GameOverScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOverScene.cpp; sourceTree = "<group>"; };
 		315AE89718537FB000D2ADC9 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		315AE89A1853813600D2ADC9 /* MutiBulletsLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MutiBulletsLayer.cpp; sourceTree = "<group>"; };
+		315AE89B1853813600D2ADC9 /* MutiBulletsLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutiBulletsLayer.h; sourceTree = "<group>"; };
 		379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrame.cpp; sourceTree = "<group>"; };
 		379BB8FD17F03F3700829B88 /* CCActionFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionFrame.h; sourceTree = "<group>"; };
 		379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrameEasing.cpp; sourceTree = "<group>"; };
@@ -1320,6 +1323,8 @@
 				315AE88E18537B1200D2ADC9 /* BulletLayer.cpp */,
 				315AE88F18537B1200D2ADC9 /* BulletLayer.h */,
 				315AE8891853794C00D2ADC9 /* Enemy.h */,
+				315AE89A1853813600D2ADC9 /* MutiBulletsLayer.cpp */,
+				315AE89B1853813600D2ADC9 /* MutiBulletsLayer.h */,
 				315AE88A1853794C00D2ADC9 /* EnemyLayer.cpp */,
 				315AE88B1853794C00D2ADC9 /* EnemyLayer.h */,
 				315AE885185363C200D2ADC9 /* PlaneLayer.cpp */,
@@ -2061,6 +2066,7 @@
 				15A3DA591682F826002FB0C5 /* CCScrollView.cpp in Sources */,
 				15A3DA5A1682F826002FB0C5 /* CCSorting.cpp in Sources */,
 				15A3DA5B1682F826002FB0C5 /* CCTableView.cpp in Sources */,
+				315AE89C1853813600D2ADC9 /* MutiBulletsLayer.cpp in Sources */,
 				15A3DA5C1682F826002FB0C5 /* CCTableViewCell.cpp in Sources */,
 				15A3DA5D1682F826002FB0C5 /* HttpClient.cpp in Sources */,
 				15A3DA5E1682F826002FB0C5 /* CCPhysicsDebugNode.cpp in Sources */,
