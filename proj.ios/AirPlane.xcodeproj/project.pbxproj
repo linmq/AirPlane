@@ -190,6 +190,8 @@
 		310E3228185305A800FBBA4B /* shoot.png in Resources */ = {isa = PBXBuildFile; fileRef = 310E3212185305A800FBBA4B /* shoot.png */; };
 		310E3229185305A800FBBA4B /* shoot_background.plist in Resources */ = {isa = PBXBuildFile; fileRef = 310E3213185305A800FBBA4B /* shoot_background.plist */; };
 		310E322A185305A800FBBA4B /* shoot_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 310E3214185305A800FBBA4B /* shoot_background.png */; };
+		315AE88318535E9900D2ADC9 /* GameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE87F18535E9900D2ADC9 /* GameLayer.cpp */; };
+		315AE88418535E9900D2ADC9 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE88118535E9900D2ADC9 /* GameScene.cpp */; };
 		379BB99517F03F3700829B88 /* CCActionFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */; };
 		379BB99617F03F3700829B88 /* CCActionFrameEasing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */; };
 		379BB99717F03F3700829B88 /* CCActionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB90017F03F3700829B88 /* CCActionManager.cpp */; };
@@ -631,6 +633,10 @@
 		310E3213185305A800FBBA4B /* shoot_background.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shoot_background.plist; sourceTree = "<group>"; };
 		310E3214185305A800FBBA4B /* shoot_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoot_background.png; sourceTree = "<group>"; };
 		310E322C185306B100FBBA4B /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
+		315AE87F18535E9900D2ADC9 /* GameLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameLayer.cpp; sourceTree = "<group>"; };
+		315AE88018535E9900D2ADC9 /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLayer.h; sourceTree = "<group>"; };
+		315AE88118535E9900D2ADC9 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
+		315AE88218535E9900D2ADC9 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrame.cpp; sourceTree = "<group>"; };
 		379BB8FD17F03F3700829B88 /* CCActionFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionFrame.h; sourceTree = "<group>"; };
 		379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrameEasing.cpp; sourceTree = "<group>"; };
@@ -1289,6 +1295,10 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				315AE87F18535E9900D2ADC9 /* GameLayer.cpp */,
+				315AE88018535E9900D2ADC9 /* GameLayer.h */,
+				315AE88118535E9900D2ADC9 /* GameScene.cpp */,
+				315AE88218535E9900D2ADC9 /* GameScene.h */,
 				310E322C185306B100FBBA4B /* AppMacros.h */,
 				310E31F6185303BB00FBBA4B /* WelcomeLayer.cpp */,
 				310E31F7185303BB00FBBA4B /* WelcomeLayer.h */,
@@ -1937,6 +1947,7 @@
 				15A3D9231682F7D5002FB0C5 /* b2Joint.cpp in Sources */,
 				15A3D9241682F7D5002FB0C5 /* b2MouseJoint.cpp in Sources */,
 				15A3D9251682F7D5002FB0C5 /* b2PrismaticJoint.cpp in Sources */,
+				315AE88418535E9900D2ADC9 /* GameScene.cpp in Sources */,
 				15A3D9261682F7D5002FB0C5 /* b2PulleyJoint.cpp in Sources */,
 				15A3D9271682F7D5002FB0C5 /* b2RevoluteJoint.cpp in Sources */,
 				15A3D9281682F7D5002FB0C5 /* b2RopeJoint.cpp in Sources */,
@@ -2102,6 +2113,7 @@
 				379BB9C717F03F3700829B88 /* UISlider.cpp in Sources */,
 				379BB9C817F03F3700829B88 /* UISwitch.cpp in Sources */,
 				379BB9C917F03F3700829B88 /* UITextField.cpp in Sources */,
+				315AE88318535E9900D2ADC9 /* GameLayer.cpp in Sources */,
 				379BB9CA17F03F3700829B88 /* CSContentJsonDictionary.cpp in Sources */,
 				379BB9CB17F03F3700829B88 /* DictionaryHelper.cpp in Sources */,
 				310E31FA185303BB00FBBA4B /* WelcomeLayer.cpp in Sources */,
