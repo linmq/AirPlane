@@ -497,7 +497,6 @@ void GameLayer::update(float dt)
 
 void GameLayer::updateBigBoomItem(int bigBoomCount)
 {
-    /*
 	CCSprite* normalBomb=CCSprite::createWithSpriteFrame(CCSpriteFrameCache::sharedSpriteFrameCache()->spriteFrameByName("bomb.png"));
 	CCSprite* pressedBomb=CCSprite::createWithSpriteFrame(CCSpriteFrameCache::sharedSpriteFrameCache()->spriteFrameByName("bomb.png"));
 	if (bigBoomCount<0)
@@ -550,19 +549,17 @@ void GameLayer::updateBigBoomItem(int bigBoomCount)
 		if (bigBoomCount>=0 && bigBoomCount<=MAX_BIGBOOM_COUNT)
 		{
 			CCString* strScore=CCString::createWithFormat("X%d",bigBoomCount);
-			bigBoomCountItem=CCLabelBMFont::create(strScore->m_sString.c_str(),"font/font.fnt");
+			bigBoomCountItem=CCLabelBMFont::create(strScore->m_sString.c_str(),"font.fnt");
 			bigBoomCountItem->setColor(ccc3(143,146,147));
 			bigBoomCountItem->setAnchorPoint(ccp(0,0.5));
 			bigBoomCountItem->setPosition(ccp(normalBomb->getContentSize().width+15,normalBomb->getContentSize().height/2+5));
 			this->addChild(bigBoomCountItem,0,TAG_BIGBOOMCOUNT_LABEL);
 		}
 	}
-    */
 }
 
 void GameLayer::menuBigBoomCallback(CCObject* pSender)
 {
-    /*
 	if(bigBoomCount>0 && !CCDirector::sharedDirector()->isPaused())
 	{
 		CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/use_bomb.mp3");
@@ -574,7 +571,6 @@ void GameLayer::menuBigBoomCallback(CCObject* pSender)
 		updateBigBoomItem(bigBoomCount);
 		this->controlLayer->updateScore(score);
 	}
-    */
 }
 
 void GameLayer::keyBackClicked()
