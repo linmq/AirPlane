@@ -12,7 +12,7 @@ GameLayer::GameLayer(void)
     
 	bulletLayer=NULL;
 	mutiBulletsLayer=NULL;
-	//controlLayer=NULL;
+	controlLayer=NULL;
      
 	enemyLayer=NULL;
 
@@ -70,8 +70,8 @@ bool GameLayer::init()
 		this->addChild(enemyLayer);
 
 		//加入controlLayer
-		//this->controlLayer=ControlLayer::create();
-		//this->addChild(controlLayer);
+		this->controlLayer=ControlLayer::create();
+		this->addChild(controlLayer);
 
 		//加入UFOLayer
 		this->ufoLayer=UFOLayer::create();
@@ -179,7 +179,7 @@ void GameLayer::update(float dt)
 					bulletsToDelete->addObject(bullet);
 					enemy1sToDelete->addObject(enemy1);
 					score+=ENEMY1_SCORE;
-					//this->controlLayer->updateScore(score);
+					this->controlLayer->updateScore(score);
 				}
 				else ;
 			}
@@ -220,7 +220,7 @@ void GameLayer::update(float dt)
 					bulletsToDelete->addObject(bullet);
 					enemy2sToDelete->addObject(enemy2);
 					score+=ENEMY2_SCORE;
-					//this->controlLayer->updateScore(score);
+					this->controlLayer->updateScore(score);
 				}
 				else ;
 			}
@@ -263,7 +263,7 @@ void GameLayer::update(float dt)
 					bulletsToDelete->addObject(bullet);
 					enemy3sToDelete->addObject(enemy3);
 					score+=ENEMY3_SCORE;
-					//this->controlLayer->updateScore(score);
+					this->controlLayer->updateScore(score);
 				}
 				//此时处在animate阶段,不做处理
 				else ;
@@ -306,7 +306,7 @@ void GameLayer::update(float dt)
 					mutiBulletsToDelete->addObject(mutiBullets);
 					enemy1sToDelete->addObject(enemy1);
 					score+=ENEMY1_SCORE;
-					//this->controlLayer->updateScore(score);
+					this->controlLayer->updateScore(score);
 				}
 				else ;
 			}
@@ -347,7 +347,7 @@ void GameLayer::update(float dt)
 					mutiBulletsToDelete->addObject(mutiBullets);
 					enemy2sToDelete->addObject(enemy2);
 					score+=ENEMY2_SCORE;
-					//this->controlLayer->updateScore(score);
+					this->controlLayer->updateScore(score);
 				}
 				else ;
 			}
@@ -390,7 +390,7 @@ void GameLayer::update(float dt)
 					mutiBulletsToDelete->addObject(mutiBullets);
 					enemy3sToDelete->addObject(enemy3);
 					score+=ENEMY3_SCORE;
-					//this->controlLayer->updateScore(score);
+					this->controlLayer->updateScore(score);
 				}
 				//此时处在animate阶段,不做处理
 				else ;
@@ -424,7 +424,7 @@ void GameLayer::update(float dt)
 				//卸载所有任务计划
 				this->unscheduleAllSelectors();
 				this->bulletLayer->StopShoot();
-				//this->mutiBulletsLayer->StopShoot();
+				this->mutiBulletsLayer->StopShoot();
 				this->planeLayer->Blowup(score);
 				return;
 			}
@@ -442,7 +442,7 @@ void GameLayer::update(float dt)
 				//卸载所有任务计划
 				this->unscheduleAllSelectors();
 				this->bulletLayer->StopShoot();
-				//this->mutiBulletsLayer->StopShoot();
+				this->mutiBulletsLayer->StopShoot();
 				this->planeLayer->Blowup(score);
 				return;
 			}
@@ -460,7 +460,7 @@ void GameLayer::update(float dt)
 				//卸载所有任务计划
 				this->unscheduleAllSelectors();
 				this->bulletLayer->StopShoot();
-				//this->mutiBulletsLayer->StopShoot();
+				this->mutiBulletsLayer->StopShoot();
 				this->planeLayer->Blowup(score);
 				return;
 			}

@@ -200,6 +200,8 @@
 		315AE89818537FB000D2ADC9 /* GameOverLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE89418537FB000D2ADC9 /* GameOverLayer.cpp */; };
 		315AE89918537FB000D2ADC9 /* GameOverScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE89618537FB000D2ADC9 /* GameOverScene.cpp */; };
 		315AE89C1853813600D2ADC9 /* MutiBulletsLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE89A1853813600D2ADC9 /* MutiBulletsLayer.cpp */; };
+		315AE89F1853837C00D2ADC9 /* ControlLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE89D1853837C00D2ADC9 /* ControlLayer.cpp */; };
+		315AE8A21853839800D2ADC9 /* NoTouchLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE8A01853839800D2ADC9 /* NoTouchLayer.cpp */; };
 		379BB99517F03F3700829B88 /* CCActionFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */; };
 		379BB99617F03F3700829B88 /* CCActionFrameEasing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */; };
 		379BB99717F03F3700829B88 /* CCActionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB90017F03F3700829B88 /* CCActionManager.cpp */; };
@@ -661,6 +663,10 @@
 		315AE89718537FB000D2ADC9 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
 		315AE89A1853813600D2ADC9 /* MutiBulletsLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MutiBulletsLayer.cpp; sourceTree = "<group>"; };
 		315AE89B1853813600D2ADC9 /* MutiBulletsLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutiBulletsLayer.h; sourceTree = "<group>"; };
+		315AE89D1853837C00D2ADC9 /* ControlLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ControlLayer.cpp; sourceTree = "<group>"; };
+		315AE89E1853837C00D2ADC9 /* ControlLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlLayer.h; sourceTree = "<group>"; };
+		315AE8A01853839800D2ADC9 /* NoTouchLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NoTouchLayer.cpp; sourceTree = "<group>"; };
+		315AE8A11853839800D2ADC9 /* NoTouchLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoTouchLayer.h; sourceTree = "<group>"; };
 		379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrame.cpp; sourceTree = "<group>"; };
 		379BB8FD17F03F3700829B88 /* CCActionFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionFrame.h; sourceTree = "<group>"; };
 		379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrameEasing.cpp; sourceTree = "<group>"; };
@@ -1326,7 +1332,11 @@
 				315AE89A1853813600D2ADC9 /* MutiBulletsLayer.cpp */,
 				315AE89B1853813600D2ADC9 /* MutiBulletsLayer.h */,
 				315AE88A1853794C00D2ADC9 /* EnemyLayer.cpp */,
+				315AE89D1853837C00D2ADC9 /* ControlLayer.cpp */,
+				315AE89E1853837C00D2ADC9 /* ControlLayer.h */,
 				315AE88B1853794C00D2ADC9 /* EnemyLayer.h */,
+				315AE8A01853839800D2ADC9 /* NoTouchLayer.cpp */,
+				315AE8A11853839800D2ADC9 /* NoTouchLayer.h */,
 				315AE885185363C200D2ADC9 /* PlaneLayer.cpp */,
 				315AE886185363C200D2ADC9 /* PlaneLayer.h */,
 				315AE87F18535E9900D2ADC9 /* GameLayer.cpp */,
@@ -2138,10 +2148,12 @@
 				379BB9B017F03F3700829B88 /* CCComRender.cpp in Sources */,
 				379BB9B117F03F3700829B88 /* CCInputDelegate.cpp in Sources */,
 				379BB9B217F03F3700829B88 /* UIRootWidget.cpp in Sources */,
+				315AE89F1853837C00D2ADC9 /* ControlLayer.cpp in Sources */,
 				379BB9B317F03F3700829B88 /* UIWidget.cpp in Sources */,
 				379BB9B417F03F3700829B88 /* Layout.cpp in Sources */,
 				379BB9B617F03F3700829B88 /* LayoutParameter.cpp in Sources */,
 				379BB9B717F03F3700829B88 /* UILayoutDefine.cpp in Sources */,
+				315AE8A21853839800D2ADC9 /* NoTouchLayer.cpp in Sources */,
 				379BB9B817F03F3700829B88 /* CocosGUI.cpp in Sources */,
 				379BB9B917F03F3700829B88 /* UIHelper.cpp in Sources */,
 				379BB9BA17F03F3700829B88 /* UIInputManager.cpp in Sources */,
