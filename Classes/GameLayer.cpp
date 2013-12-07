@@ -9,11 +9,11 @@ GameLayer::GameLayer(void)
 	background1=NULL;
 	background2=NULL;
 	planeLayer=NULL;
-    /*
+    
 	bulletLayer=NULL;
-	mutiBulletsLayer=NULL;
-	controlLayer=NULL;
-     */
+	//mutiBulletsLayer=NULL;
+	//controlLayer=NULL;
+     
 	enemyLayer=NULL;
 
 	score=0;
@@ -57,9 +57,9 @@ bool GameLayer::init()
 		this->addChild(planeLayer);
 
 		//加入bulletLayer
-		//this->bulletLayer=BulletLayer::create();
-		//this->addChild(bulletLayer);
-		//this->bulletLayer->StartShoot();
+		this->bulletLayer=BulletLayer::create();
+		this->addChild(bulletLayer);
+		this->bulletLayer->StartShoot();
 
 		//加入mutiBulletsLayer
 		//this->mutiBulletsLayer=MutiBulletsLayer::create();

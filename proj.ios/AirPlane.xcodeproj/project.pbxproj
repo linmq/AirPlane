@@ -195,6 +195,7 @@
 		315AE887185363C200D2ADC9 /* PlaneLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE885185363C200D2ADC9 /* PlaneLayer.cpp */; };
 		315AE88C1853794C00D2ADC9 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE8881853794C00D2ADC9 /* Enemy.cpp */; };
 		315AE88D1853794C00D2ADC9 /* EnemyLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE88A1853794C00D2ADC9 /* EnemyLayer.cpp */; };
+		315AE89018537B1200D2ADC9 /* BulletLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE88E18537B1200D2ADC9 /* BulletLayer.cpp */; };
 		379BB99517F03F3700829B88 /* CCActionFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */; };
 		379BB99617F03F3700829B88 /* CCActionFrameEasing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */; };
 		379BB99717F03F3700829B88 /* CCActionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB90017F03F3700829B88 /* CCActionManager.cpp */; };
@@ -646,6 +647,8 @@
 		315AE8891853794C00D2ADC9 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
 		315AE88A1853794C00D2ADC9 /* EnemyLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EnemyLayer.cpp; sourceTree = "<group>"; };
 		315AE88B1853794C00D2ADC9 /* EnemyLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyLayer.h; sourceTree = "<group>"; };
+		315AE88E18537B1200D2ADC9 /* BulletLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BulletLayer.cpp; sourceTree = "<group>"; };
+		315AE88F18537B1200D2ADC9 /* BulletLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletLayer.h; sourceTree = "<group>"; };
 		379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrame.cpp; sourceTree = "<group>"; };
 		379BB8FD17F03F3700829B88 /* CCActionFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionFrame.h; sourceTree = "<group>"; };
 		379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrameEasing.cpp; sourceTree = "<group>"; };
@@ -1305,6 +1308,8 @@
 			isa = PBXGroup;
 			children = (
 				315AE8881853794C00D2ADC9 /* Enemy.cpp */,
+				315AE88E18537B1200D2ADC9 /* BulletLayer.cpp */,
+				315AE88F18537B1200D2ADC9 /* BulletLayer.h */,
 				315AE8891853794C00D2ADC9 /* Enemy.h */,
 				315AE88A1853794C00D2ADC9 /* EnemyLayer.cpp */,
 				315AE88B1853794C00D2ADC9 /* EnemyLayer.h */,
@@ -2089,6 +2094,7 @@
 				379BB99D17F03F3700829B88 /* CCArmature.cpp in Sources */,
 				379BB99E17F03F3700829B88 /* CCBone.cpp in Sources */,
 				379BB99F17F03F3700829B88 /* CCDatas.cpp in Sources */,
+				315AE89018537B1200D2ADC9 /* BulletLayer.cpp in Sources */,
 				379BB9A017F03F3700829B88 /* CCBatchNode.cpp in Sources */,
 				379BB9A117F03F3700829B88 /* CCDecorativeDisplay.cpp in Sources */,
 				379BB9A217F03F3700829B88 /* CCDisplayFactory.cpp in Sources */,
