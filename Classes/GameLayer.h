@@ -7,7 +7,7 @@
 //#include "MutiBulletsLayer.h"
 //#include "ControlLayer.h"
 //#include "UFOLayer.h"
-//#include "EnemyLayer.h"
+#include "EnemyLayer.h"
 
 USING_NS_CC;
 
@@ -50,7 +50,7 @@ public:
 
 	virtual void keyBackClicked();//Android·µ»Ø¼ü
 
-//	static Level getCurLevel();
+	static Level getCurLevel();
 
 private:
 	CCSprite* background1;
@@ -61,12 +61,12 @@ private:
 //	MutiBulletsLayer* mutiBulletsLayer;
 //	ControlLayer* controlLayer;
 //	UFOLayer* ufoLayer;
-//	EnemyLayer* enemyLayer;
+	EnemyLayer* enemyLayer;
 
 	CCMenu* menuBigBoom;
 	CCLabelBMFont* bigBoomCountItem;
 
 	int score;
 	int bigBoomCount;
-//	static Level level;
+	static Level level;
 };

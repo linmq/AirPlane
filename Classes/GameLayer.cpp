@@ -2,7 +2,7 @@
 //#include "Enemy.h"
 
 
-//Level GameLayer::level=EASY;
+Level GameLayer::level=EASY;
 
 GameLayer::GameLayer(void)
 {
@@ -13,8 +13,8 @@ GameLayer::GameLayer(void)
 	bulletLayer=NULL;
 	mutiBulletsLayer=NULL;
 	controlLayer=NULL;
+     */
 	enemyLayer=NULL;
-    */
 
 	score=0;
 	bigBoomCount=0;
@@ -32,7 +32,7 @@ bool GameLayer::init()
 		CC_BREAK_IF(!CCLayer::init());
 
 		//初始化level
-		//level=EASY;
+		level=EASY;
 
 		//加载background Music
 		if (!CocosDenshion::SimpleAudioEngine::sharedEngine()->isBackgroundMusicPlaying())
@@ -66,8 +66,8 @@ bool GameLayer::init()
 		//this->addChild(mutiBulletsLayer);
 
 		//加入enemyLayer
-		//this->enemyLayer=EnemyLayer::create();
-		//this->addChild(enemyLayer);
+		this->enemyLayer=EnemyLayer::create();
+		this->addChild(enemyLayer);
 
 		//加入controlLayer
 		//this->controlLayer=ControlLayer::create();
@@ -587,9 +587,7 @@ void GameLayer::keyBackClicked()
 	CCDirector::sharedDirector()->end();
 }
 
-/*
 Level GameLayer::getCurLevel()
 {
 	return level;
 }
-*/

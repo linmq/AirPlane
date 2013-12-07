@@ -193,6 +193,8 @@
 		315AE88318535E9900D2ADC9 /* GameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE87F18535E9900D2ADC9 /* GameLayer.cpp */; };
 		315AE88418535E9900D2ADC9 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE88118535E9900D2ADC9 /* GameScene.cpp */; };
 		315AE887185363C200D2ADC9 /* PlaneLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE885185363C200D2ADC9 /* PlaneLayer.cpp */; };
+		315AE88C1853794C00D2ADC9 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE8881853794C00D2ADC9 /* Enemy.cpp */; };
+		315AE88D1853794C00D2ADC9 /* EnemyLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE88A1853794C00D2ADC9 /* EnemyLayer.cpp */; };
 		379BB99517F03F3700829B88 /* CCActionFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */; };
 		379BB99617F03F3700829B88 /* CCActionFrameEasing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */; };
 		379BB99717F03F3700829B88 /* CCActionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB90017F03F3700829B88 /* CCActionManager.cpp */; };
@@ -640,6 +642,10 @@
 		315AE88218535E9900D2ADC9 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		315AE885185363C200D2ADC9 /* PlaneLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlaneLayer.cpp; sourceTree = "<group>"; };
 		315AE886185363C200D2ADC9 /* PlaneLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaneLayer.h; sourceTree = "<group>"; };
+		315AE8881853794C00D2ADC9 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		315AE8891853794C00D2ADC9 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		315AE88A1853794C00D2ADC9 /* EnemyLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EnemyLayer.cpp; sourceTree = "<group>"; };
+		315AE88B1853794C00D2ADC9 /* EnemyLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyLayer.h; sourceTree = "<group>"; };
 		379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrame.cpp; sourceTree = "<group>"; };
 		379BB8FD17F03F3700829B88 /* CCActionFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionFrame.h; sourceTree = "<group>"; };
 		379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrameEasing.cpp; sourceTree = "<group>"; };
@@ -1298,6 +1304,10 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				315AE8881853794C00D2ADC9 /* Enemy.cpp */,
+				315AE8891853794C00D2ADC9 /* Enemy.h */,
+				315AE88A1853794C00D2ADC9 /* EnemyLayer.cpp */,
+				315AE88B1853794C00D2ADC9 /* EnemyLayer.h */,
 				315AE885185363C200D2ADC9 /* PlaneLayer.cpp */,
 				315AE886185363C200D2ADC9 /* PlaneLayer.h */,
 				315AE87F18535E9900D2ADC9 /* GameLayer.cpp */,
@@ -1928,6 +1938,7 @@
 				15A3D90C1682F7D5002FB0C5 /* b2Draw.cpp in Sources */,
 				15A3D90D1682F7D5002FB0C5 /* b2Math.cpp in Sources */,
 				15A3D90E1682F7D5002FB0C5 /* b2Settings.cpp in Sources */,
+				315AE88C1853794C00D2ADC9 /* Enemy.cpp in Sources */,
 				15A3D90F1682F7D5002FB0C5 /* b2StackAllocator.cpp in Sources */,
 				15A3D9101682F7D5002FB0C5 /* b2Timer.cpp in Sources */,
 				310E31FB185303BB00FBBA4B /* WelcomeScene.cpp in Sources */,
@@ -1957,6 +1968,7 @@
 				15A3D9271682F7D5002FB0C5 /* b2RevoluteJoint.cpp in Sources */,
 				15A3D9281682F7D5002FB0C5 /* b2RopeJoint.cpp in Sources */,
 				15A3D9291682F7D5002FB0C5 /* b2WeldJoint.cpp in Sources */,
+				315AE88D1853794C00D2ADC9 /* EnemyLayer.cpp in Sources */,
 				15A3D92A1682F7D5002FB0C5 /* b2WheelJoint.cpp in Sources */,
 				15A3D9391682F7D5002FB0C5 /* b2Rope.cpp in Sources */,
 				15A3D9951682F7F9002FB0C5 /* chipmunk.c in Sources */,
