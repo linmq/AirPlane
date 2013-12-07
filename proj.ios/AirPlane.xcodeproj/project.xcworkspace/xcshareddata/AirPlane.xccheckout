@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7DD77D0D-08D5-402A-A18F-FB3999F5902F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AirPlane</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>157D69CA-BCF8-4768-A158-528A973880C2</key>
+		<string>https://github.com/linmq/AirPlane.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>proj.ios/AirPlane.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>157D69CA-BCF8-4768-A158-528A973880C2</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/linmq/AirPlane.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>157D69CA-BCF8-4768-A158-528A973880C2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>157D69CA-BCF8-4768-A158-528A973880C2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AirPlane</string>
+		</dict>
+	</array>
+</dict>
+</plist>
