@@ -288,7 +288,6 @@ void GameLayer::update(float dt)
 	mutiBulletsToDelete->retain();
 	CCObject* mbt;
 
-/*
 	////enemy1 & mutiBullets CheckCollosion
 	CCARRAY_FOREACH(this->mutiBulletsLayer->m_pAllMutiBullets,mbt)
 	{
@@ -348,7 +347,7 @@ void GameLayer::update(float dt)
 					mutiBulletsToDelete->addObject(mutiBullets);
 					enemy2sToDelete->addObject(enemy2);
 					score+=ENEMY2_SCORE;
-					this->controlLayer->updateScore(score);
+					//this->controlLayer->updateScore(score);
 				}
 				else ;
 			}
@@ -391,7 +390,7 @@ void GameLayer::update(float dt)
 					mutiBulletsToDelete->addObject(mutiBullets);
 					enemy3sToDelete->addObject(enemy3);
 					score+=ENEMY3_SCORE;
-					this->controlLayer->updateScore(score);
+					//this->controlLayer->updateScore(score);
 				}
 				//此时处在animate阶段,不做处理
 				else ;
@@ -410,7 +409,6 @@ void GameLayer::update(float dt)
 		this->mutiBulletsLayer->RemoveMutiBullets(mutiBullets);
 	}
 	mutiBulletsToDelete->release();
-*/
 
 	CCRect airplaneRect=this->planeLayer->getChildByTag(AIRPLANE)->boundingBox();
 	airplaneRect.origin.x+=30;
