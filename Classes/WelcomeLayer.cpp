@@ -1,5 +1,5 @@
 #include "WelcomeLayer.h"
-//#include "GameScene.h"
+#include "GameScene.h"
 //#include "GameOverLayer.h"
 
 WelcomeLayer::WelcomeLayer(void)
@@ -46,13 +46,13 @@ bool WelcomeLayer::init()
 		animation->addSpriteFrame(CCSpriteFrameCache::sharedSpriteFrameCache()->spriteFrameByName("game_loading3.png"));
 		animation->addSpriteFrame(CCSpriteFrameCache::sharedSpriteFrameCache()->spriteFrameByName("game_loading4.png"));
 
-        /*
 		CCAnimate* animate=CCAnimate::create(animation);
 		CCRepeat* repeat=CCRepeat::create(animate,2);
 		CCCallFuncN* repeatdone=CCCallFuncN::create(this,callfuncN_selector(WelcomeLayer::loadingDone));
 		CCSequence* sequence=CCSequence::create(repeat,repeatdone,NULL);
 		loading->runAction(sequence);
 		
+        /*
 		getHighestHistorySorce();
 
 		this->setKeypadEnabled(true);
@@ -66,11 +66,9 @@ bool WelcomeLayer::init()
 
 void WelcomeLayer::loadingDone(CCNode* pNode)
 {
-    /*
 	CCScene* pScene=GameScene::create();
 	CCTransitionMoveInB *animateScene=CCTransitionMoveInB::create(0.5f,pScene);
 	CCDirector::sharedDirector()->replaceScene(animateScene);
-    */
 }
 
 void WelcomeLayer::keyBackClicked()
