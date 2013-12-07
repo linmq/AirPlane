@@ -1,6 +1,6 @@
 #include "WelcomeLayer.h"
 #include "GameScene.h"
-//#include "GameOverLayer.h"
+#include "GameOverLayer.h"
 
 WelcomeLayer::WelcomeLayer(void)
 {
@@ -52,11 +52,9 @@ bool WelcomeLayer::init()
 		CCSequence* sequence=CCSequence::create(repeat,repeatdone,NULL);
 		loading->runAction(sequence);
 		
-        /*
 		getHighestHistorySorce();
 
-		this->setKeypadEnabled(true);
-        */
+		//this->setKeypadEnabled(true);
 
 		bRet=true;
 	} while (0);
@@ -93,10 +91,8 @@ bool WelcomeLayer::isHaveSaveFile()
 
 void WelcomeLayer::getHighestHistorySorce()
 {
-    /*
 	if (isHaveSaveFile())
 	{
 		GameOverLayer::highestHistoryScore=CCUserDefault::sharedUserDefault()->getIntegerForKey("HighestScore",0);
 	}
-    */
 }

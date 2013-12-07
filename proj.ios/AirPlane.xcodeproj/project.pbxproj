@@ -197,6 +197,8 @@
 		315AE88D1853794C00D2ADC9 /* EnemyLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE88A1853794C00D2ADC9 /* EnemyLayer.cpp */; };
 		315AE89018537B1200D2ADC9 /* BulletLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE88E18537B1200D2ADC9 /* BulletLayer.cpp */; };
 		315AE89318537C1100D2ADC9 /* UFOLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE89118537C1100D2ADC9 /* UFOLayer.cpp */; };
+		315AE89818537FB000D2ADC9 /* GameOverLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE89418537FB000D2ADC9 /* GameOverLayer.cpp */; };
+		315AE89918537FB000D2ADC9 /* GameOverScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE89618537FB000D2ADC9 /* GameOverScene.cpp */; };
 		379BB99517F03F3700829B88 /* CCActionFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */; };
 		379BB99617F03F3700829B88 /* CCActionFrameEasing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */; };
 		379BB99717F03F3700829B88 /* CCActionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB90017F03F3700829B88 /* CCActionManager.cpp */; };
@@ -652,6 +654,10 @@
 		315AE88F18537B1200D2ADC9 /* BulletLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletLayer.h; sourceTree = "<group>"; };
 		315AE89118537C1100D2ADC9 /* UFOLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UFOLayer.cpp; sourceTree = "<group>"; };
 		315AE89218537C1100D2ADC9 /* UFOLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFOLayer.h; sourceTree = "<group>"; };
+		315AE89418537FB000D2ADC9 /* GameOverLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOverLayer.cpp; sourceTree = "<group>"; };
+		315AE89518537FB000D2ADC9 /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverLayer.h; sourceTree = "<group>"; };
+		315AE89618537FB000D2ADC9 /* GameOverScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOverScene.cpp; sourceTree = "<group>"; };
+		315AE89718537FB000D2ADC9 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
 		379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrame.cpp; sourceTree = "<group>"; };
 		379BB8FD17F03F3700829B88 /* CCActionFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionFrame.h; sourceTree = "<group>"; };
 		379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrameEasing.cpp; sourceTree = "<group>"; };
@@ -1321,6 +1327,10 @@
 				315AE87F18535E9900D2ADC9 /* GameLayer.cpp */,
 				315AE88018535E9900D2ADC9 /* GameLayer.h */,
 				315AE89118537C1100D2ADC9 /* UFOLayer.cpp */,
+				315AE89418537FB000D2ADC9 /* GameOverLayer.cpp */,
+				315AE89518537FB000D2ADC9 /* GameOverLayer.h */,
+				315AE89618537FB000D2ADC9 /* GameOverScene.cpp */,
+				315AE89718537FB000D2ADC9 /* GameOverScene.h */,
 				315AE89218537C1100D2ADC9 /* UFOLayer.h */,
 				315AE88118535E9900D2ADC9 /* GameScene.cpp */,
 				315AE88218535E9900D2ADC9 /* GameScene.h */,
@@ -2117,6 +2127,7 @@
 				379BB9AD17F03F3700829B88 /* CCComAttribute.cpp in Sources */,
 				379BB9AE17F03F3700829B88 /* CCComAudio.cpp in Sources */,
 				315AE887185363C200D2ADC9 /* PlaneLayer.cpp in Sources */,
+				315AE89818537FB000D2ADC9 /* GameOverLayer.cpp in Sources */,
 				379BB9AF17F03F3700829B88 /* CCComController.cpp in Sources */,
 				379BB9B017F03F3700829B88 /* CCComRender.cpp in Sources */,
 				379BB9B117F03F3700829B88 /* CCInputDelegate.cpp in Sources */,
@@ -2151,6 +2162,7 @@
 				379BB9CF17F03F3700829B88 /* json_value.cpp in Sources */,
 				379BB9D117F03F3700829B88 /* json_writer.cpp in Sources */,
 				379BB9D317F03F3700829B88 /* CCSGUIReader.cpp in Sources */,
+				315AE89918537FB000D2ADC9 /* GameOverScene.cpp in Sources */,
 				379BB9D417F03F3700829B88 /* CCSSceneReader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

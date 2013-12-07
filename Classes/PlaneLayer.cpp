@@ -1,5 +1,5 @@
 #include "PlaneLayer.h"
-//#include "GameOverScene.h"
+#include "GameOverScene.h"
 
 PlaneLayer* PlaneLayer::sharedPlane=NULL;//��̬����Ҫ��cpp����ʼ��
 
@@ -113,10 +113,8 @@ void PlaneLayer::Blowup(int passScore)
 
 void PlaneLayer::RemovePlane()
 {
-    /*
 	this->removeChildByTag(AIRPLANE,true);
 	GameOverScene* pScene=GameOverScene::create(score);
 	CCTransitionMoveInT* animateScene=CCTransitionMoveInT::create(0.8f,pScene);
 	CCDirector::sharedDirector()->replaceScene(animateScene);
-    */
 }
