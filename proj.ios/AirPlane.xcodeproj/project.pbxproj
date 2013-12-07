@@ -192,6 +192,7 @@
 		310E322A185305A800FBBA4B /* shoot_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 310E3214185305A800FBBA4B /* shoot_background.png */; };
 		315AE88318535E9900D2ADC9 /* GameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE87F18535E9900D2ADC9 /* GameLayer.cpp */; };
 		315AE88418535E9900D2ADC9 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE88118535E9900D2ADC9 /* GameScene.cpp */; };
+		315AE887185363C200D2ADC9 /* PlaneLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE885185363C200D2ADC9 /* PlaneLayer.cpp */; };
 		379BB99517F03F3700829B88 /* CCActionFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */; };
 		379BB99617F03F3700829B88 /* CCActionFrameEasing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */; };
 		379BB99717F03F3700829B88 /* CCActionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB90017F03F3700829B88 /* CCActionManager.cpp */; };
@@ -637,6 +638,8 @@
 		315AE88018535E9900D2ADC9 /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLayer.h; sourceTree = "<group>"; };
 		315AE88118535E9900D2ADC9 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
 		315AE88218535E9900D2ADC9 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		315AE885185363C200D2ADC9 /* PlaneLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlaneLayer.cpp; sourceTree = "<group>"; };
+		315AE886185363C200D2ADC9 /* PlaneLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaneLayer.h; sourceTree = "<group>"; };
 		379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrame.cpp; sourceTree = "<group>"; };
 		379BB8FD17F03F3700829B88 /* CCActionFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionFrame.h; sourceTree = "<group>"; };
 		379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrameEasing.cpp; sourceTree = "<group>"; };
@@ -1295,6 +1298,8 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				315AE885185363C200D2ADC9 /* PlaneLayer.cpp */,
+				315AE886185363C200D2ADC9 /* PlaneLayer.h */,
 				315AE87F18535E9900D2ADC9 /* GameLayer.cpp */,
 				315AE88018535E9900D2ADC9 /* GameLayer.h */,
 				315AE88118535E9900D2ADC9 /* GameScene.cpp */,
@@ -2087,6 +2092,7 @@
 				379BB9AC17F03F3700829B88 /* CCUtilMath.cpp in Sources */,
 				379BB9AD17F03F3700829B88 /* CCComAttribute.cpp in Sources */,
 				379BB9AE17F03F3700829B88 /* CCComAudio.cpp in Sources */,
+				315AE887185363C200D2ADC9 /* PlaneLayer.cpp in Sources */,
 				379BB9AF17F03F3700829B88 /* CCComController.cpp in Sources */,
 				379BB9B017F03F3700829B88 /* CCComRender.cpp in Sources */,
 				379BB9B117F03F3700829B88 /* CCInputDelegate.cpp in Sources */,

@@ -2,7 +2,7 @@
 
 #include "cocos2d.h"
 #include "SimpleAudioEngine.h"
-//#include "PlaneLayer.h"
+#include "PlaneLayer.h"
 //#include "BulletLayer.h"
 //#include "MutiBulletsLayer.h"
 //#include "ControlLayer.h"
@@ -56,7 +56,7 @@ private:
 	CCSprite* background1;
 	CCSprite* background2;
 
-//	PlaneLayer* planeLayer;
+	PlaneLayer* planeLayer;
 //	BulletLayer* bulletLayer;
 //	MutiBulletsLayer* mutiBulletsLayer;
 //	ControlLayer* controlLayer;

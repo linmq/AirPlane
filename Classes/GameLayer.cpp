@@ -8,8 +8,8 @@ GameLayer::GameLayer(void)
 {
 	background1=NULL;
 	background2=NULL;
-	/*
-    planeLayer=NULL;
+	planeLayer=NULL;
+    /*
 	bulletLayer=NULL;
 	mutiBulletsLayer=NULL;
 	controlLayer=NULL;
@@ -53,8 +53,8 @@ bool GameLayer::init()
 		this->addChild(background2);
 
 		//加入planeLayer
-		//this->planeLayer=PlaneLayer::create();
-		//this->addChild(planeLayer);
+		this->planeLayer=PlaneLayer::create();
+		this->addChild(planeLayer);
 
 		//加入bulletLayer
 		//this->bulletLayer=BulletLayer::create();
