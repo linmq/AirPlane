@@ -196,6 +196,7 @@
 		315AE88C1853794C00D2ADC9 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE8881853794C00D2ADC9 /* Enemy.cpp */; };
 		315AE88D1853794C00D2ADC9 /* EnemyLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE88A1853794C00D2ADC9 /* EnemyLayer.cpp */; };
 		315AE89018537B1200D2ADC9 /* BulletLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE88E18537B1200D2ADC9 /* BulletLayer.cpp */; };
+		315AE89318537C1100D2ADC9 /* UFOLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315AE89118537C1100D2ADC9 /* UFOLayer.cpp */; };
 		379BB99517F03F3700829B88 /* CCActionFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */; };
 		379BB99617F03F3700829B88 /* CCActionFrameEasing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */; };
 		379BB99717F03F3700829B88 /* CCActionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB90017F03F3700829B88 /* CCActionManager.cpp */; };
@@ -649,6 +650,8 @@
 		315AE88B1853794C00D2ADC9 /* EnemyLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyLayer.h; sourceTree = "<group>"; };
 		315AE88E18537B1200D2ADC9 /* BulletLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BulletLayer.cpp; sourceTree = "<group>"; };
 		315AE88F18537B1200D2ADC9 /* BulletLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletLayer.h; sourceTree = "<group>"; };
+		315AE89118537C1100D2ADC9 /* UFOLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UFOLayer.cpp; sourceTree = "<group>"; };
+		315AE89218537C1100D2ADC9 /* UFOLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFOLayer.h; sourceTree = "<group>"; };
 		379BB8FC17F03F3700829B88 /* CCActionFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrame.cpp; sourceTree = "<group>"; };
 		379BB8FD17F03F3700829B88 /* CCActionFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionFrame.h; sourceTree = "<group>"; };
 		379BB8FE17F03F3700829B88 /* CCActionFrameEasing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionFrameEasing.cpp; sourceTree = "<group>"; };
@@ -1317,6 +1320,8 @@
 				315AE886185363C200D2ADC9 /* PlaneLayer.h */,
 				315AE87F18535E9900D2ADC9 /* GameLayer.cpp */,
 				315AE88018535E9900D2ADC9 /* GameLayer.h */,
+				315AE89118537C1100D2ADC9 /* UFOLayer.cpp */,
+				315AE89218537C1100D2ADC9 /* UFOLayer.h */,
 				315AE88118535E9900D2ADC9 /* GameScene.cpp */,
 				315AE88218535E9900D2ADC9 /* GameScene.h */,
 				310E322C185306B100FBBA4B /* AppMacros.h */,
@@ -2055,6 +2060,7 @@
 				15A3DAED1682F8A6002FB0C5 /* CocosDenshion.m in Sources */,
 				15A3DAEE1682F8A6002FB0C5 /* SimpleAudioEngine.mm in Sources */,
 				15A3DAEF1682F8A6002FB0C5 /* SimpleAudioEngine_objc.m in Sources */,
+				315AE89318537C1100D2ADC9 /* UFOLayer.cpp in Sources */,
 				1A27573F1697CF2B00504026 /* CCEditBoxImplAndroid.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				1AC3624916D4A1E8000847F2 /* AppController.mm in Sources */,

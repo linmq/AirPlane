@@ -6,7 +6,7 @@
 #include "BulletLayer.h"
 //#include "MutiBulletsLayer.h"
 //#include "ControlLayer.h"
-//#include "UFOLayer.h"
+#include "UFOLayer.h"
 #include "EnemyLayer.h"
 
 USING_NS_CC;
@@ -60,7 +60,7 @@ private:
 	BulletLayer* bulletLayer;
 //	MutiBulletsLayer* mutiBulletsLayer;
 //	ControlLayer* controlLayer;
-//	UFOLayer* ufoLayer;
+	UFOLayer* ufoLayer;
 	EnemyLayer* enemyLayer;
 
 	CCMenu* menuBigBoom;
