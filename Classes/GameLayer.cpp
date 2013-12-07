@@ -84,7 +84,7 @@ bool GameLayer::init()
 		//this->schedule(schedule_selector(GameLayer::backgroundMove),0.01f);
 
 		//碰撞检测
-		//this->scheduleUpdate();
+		this->scheduleUpdate();
 
 		//设置按键有效
 		//this->setKeypadEnabled(true);
@@ -147,8 +147,6 @@ void GameLayer::registerWithTouchDispatcher()
 
 void GameLayer::update(float dt)
 {
-    /*
-     
 	if (level==EASY && score>=1000000)
 	{
 		level=MIDDLE;
@@ -181,7 +179,7 @@ void GameLayer::update(float dt)
 					bulletsToDelete->addObject(bullet);
 					enemy1sToDelete->addObject(enemy1);
 					score+=ENEMY1_SCORE;
-					this->controlLayer->updateScore(score);
+					//this->controlLayer->updateScore(score);
 				}
 				else ;
 			}
@@ -222,7 +220,7 @@ void GameLayer::update(float dt)
 					bulletsToDelete->addObject(bullet);
 					enemy2sToDelete->addObject(enemy2);
 					score+=ENEMY2_SCORE;
-					this->controlLayer->updateScore(score);
+					//this->controlLayer->updateScore(score);
 				}
 				else ;
 			}
@@ -265,7 +263,7 @@ void GameLayer::update(float dt)
 					bulletsToDelete->addObject(bullet);
 					enemy3sToDelete->addObject(enemy3);
 					score+=ENEMY3_SCORE;
-					this->controlLayer->updateScore(score);
+					//this->controlLayer->updateScore(score);
 				}
 				//此时处在animate阶段,不做处理
 				else ;
@@ -290,6 +288,7 @@ void GameLayer::update(float dt)
 	mutiBulletsToDelete->retain();
 	CCObject* mbt;
 
+/*
 	////enemy1 & mutiBullets CheckCollosion
 	CCARRAY_FOREACH(this->mutiBulletsLayer->m_pAllMutiBullets,mbt)
 	{
@@ -308,7 +307,7 @@ void GameLayer::update(float dt)
 					mutiBulletsToDelete->addObject(mutiBullets);
 					enemy1sToDelete->addObject(enemy1);
 					score+=ENEMY1_SCORE;
-					this->controlLayer->updateScore(score);
+					//this->controlLayer->updateScore(score);
 				}
 				else ;
 			}
@@ -411,7 +410,7 @@ void GameLayer::update(float dt)
 		this->mutiBulletsLayer->RemoveMutiBullets(mutiBullets);
 	}
 	mutiBulletsToDelete->release();
-
+*/
 
 	CCRect airplaneRect=this->planeLayer->getChildByTag(AIRPLANE)->boundingBox();
 	airplaneRect.origin.x+=30;
@@ -427,7 +426,7 @@ void GameLayer::update(float dt)
 				//卸载所有任务计划
 				this->unscheduleAllSelectors();
 				this->bulletLayer->StopShoot();
-				this->mutiBulletsLayer->StopShoot();
+				//this->mutiBulletsLayer->StopShoot();
 				this->planeLayer->Blowup(score);
 				return;
 			}
@@ -445,7 +444,7 @@ void GameLayer::update(float dt)
 				//卸载所有任务计划
 				this->unscheduleAllSelectors();
 				this->bulletLayer->StopShoot();
-				this->mutiBulletsLayer->StopShoot();
+				//this->mutiBulletsLayer->StopShoot();
 				this->planeLayer->Blowup(score);
 				return;
 			}
@@ -463,7 +462,7 @@ void GameLayer::update(float dt)
 				//卸载所有任务计划
 				this->unscheduleAllSelectors();
 				this->bulletLayer->StopShoot();
-				this->mutiBulletsLayer->StopShoot();
+				//this->mutiBulletsLayer->StopShoot();
 				this->planeLayer->Blowup(score);
 				return;
 			}
@@ -479,7 +478,7 @@ void GameLayer::update(float dt)
 			CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/get_double_laser.mp3");
 			this->ufoLayer->RemoveMutiBullets(mutiBullets);
 			this->bulletLayer->StopShoot();
-			this->mutiBulletsLayer->StartShoot();
+			//this->mutiBulletsLayer->StartShoot();
 			this->bulletLayer->StartShoot(6.2f);
 		}
 	}
@@ -496,8 +495,6 @@ void GameLayer::update(float dt)
 			updateBigBoomItem(bigBoomCount);
 		}
 	}
-    
-    */
 }
 
 void GameLayer::updateBigBoomItem(int bigBoomCount)
