@@ -33,7 +33,7 @@ bool UFOLayer::init()
 
 void UFOLayer::AddMutiBullets(float dt)
 {
-	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/out_porp.mp3");
+	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("out_porp.mp3");
 	CCSprite* mutiBullets=CCSprite::createWithSpriteFrame(CCSpriteFrameCache::sharedSpriteFrameCache()->spriteFrameByName("ufo1.png"));
 
 	CCSize mutiBlletsSize=mutiBullets->getContentSize();
@@ -66,7 +66,7 @@ void UFOLayer::mutiBulletsMoveFinished(CCNode* pSender)
 
 void UFOLayer::AddBigBoom(float dt)
 {
-	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/out_porp.mp3");
+	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("out_porp.mp3");
 	CCSprite* bigBoom=CCSprite::createWithSpriteFrame(CCSpriteFrameCache::sharedSpriteFrameCache()->spriteFrameByName("ufo2.png"));
 
 	CCSize bigBoomSize=bigBoom->getContentSize();

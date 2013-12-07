@@ -41,7 +41,7 @@ bool GameOverLayer::init()
 		{
 			CocosDenshion::SimpleAudioEngine::sharedEngine()->stopBackgroundMusic();
 		}
-		CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/game_over.mp3");
+		CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("game_over.mp3");
 
 		CCSize winSize=CCDirector::sharedDirector()->getWinSize();
 
@@ -119,7 +119,7 @@ void GameOverLayer::keyBackClicked()
 
 void GameOverLayer::beginChangeHighestScore(CCNode* pNode)
 {
-	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/achievement.mp3");
+	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("achievement.mp3");
 	CCString* changeScore=CCString::createWithFormat("%d",score);
 	highestScore->setString(changeScore->m_sString.c_str());
 }

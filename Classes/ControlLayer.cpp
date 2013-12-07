@@ -44,7 +44,7 @@ bool ControlLayer::init()
 
 void ControlLayer::menuPauseCallback(CCObject* pSender)
 {
-	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/button.mp3");
+	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("button.mp3");
 	if(!CCDirector::sharedDirector()->isPaused())
 	{
 		pPauseItem->setNormalSpriteFrame(CCSpriteFrameCache::sharedSpriteFrameCache()->spriteFrameByName("game_resume_nor.png"));

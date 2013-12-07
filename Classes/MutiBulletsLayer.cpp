@@ -46,7 +46,7 @@ void MutiBulletsLayer::StopShoot()
 
 void MutiBulletsLayer::AddMutiBullets(float dt)
 {
-	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/bullet.mp3");
+	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("bullet.mp3");
 
 	CCSprite* bulletLeft=CCSprite::createWithSpriteFrameName("bullet2.png");
 	CCSprite* bulletRight=CCSprite::createWithSpriteFrameName("bullet2.png");

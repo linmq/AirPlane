@@ -46,7 +46,7 @@ void BulletLayer::StopShoot()
 
 void BulletLayer::AddBullet(float dt)
 {
-	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/bullet.mp3");
+	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("bullet.mp3");
 	CCSprite* bullet=CCSprite::createWithSpriteFrameName("bullet1.png");
 	bulletBatchNode->addChild(bullet);
 	//this->addChild(bullet);

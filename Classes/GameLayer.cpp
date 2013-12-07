@@ -37,7 +37,7 @@ bool GameLayer::init()
 		//¼ÓÔØbackground Music
 		if (!CocosDenshion::SimpleAudioEngine::sharedEngine()->isBackgroundMusicPlaying())
 		{
-			CocosDenshion::SimpleAudioEngine::sharedEngine()->playBackgroundMusic("sound/game_music.mp3",true);
+			CocosDenshion::SimpleAudioEngine::sharedEngine()->playBackgroundMusic("game_music.mp3",true);
 		}
 
 		//¼ÓÔØbackground1
@@ -473,7 +473,7 @@ void GameLayer::update(float dt)
 		CCSprite* mutiBullets=(CCSprite*)ut;
 		if (this->planeLayer->getChildByTag(AIRPLANE)->boundingBox().intersectsRect(mutiBullets->boundingBox()))
 		{
-			CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/get_double_laser.mp3");
+			CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("get_double_laser.mp3");
 			this->ufoLayer->RemoveMutiBullets(mutiBullets);
 			this->bulletLayer->StopShoot();
 			this->mutiBulletsLayer->StartShoot();
@@ -487,7 +487,7 @@ void GameLayer::update(float dt)
 		CCSprite* bigBoom=(CCSprite*)ut;
 		if (this->planeLayer->getChildByTag(AIRPLANE)->boundingBox().intersectsRect(bigBoom->boundingBox()))
 		{
-			CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/get_bomb.mp3");
+			CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("get_bomb.mp3");
 			this->ufoLayer->RemoveBigBoom(bigBoom);
 			bigBoomCount++;
 			updateBigBoomItem(bigBoomCount);
@@ -562,7 +562,7 @@ void GameLayer::menuBigBoomCallback(CCObject* pSender)
 {
 	if(bigBoomCount>0 && !CCDirector::sharedDirector()->isPaused())
 	{
-		CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/use_bomb.mp3");
+		CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("use_bomb.mp3");
 		bigBoomCount--;
 		score+=this->enemyLayer->m_pAllEnemy1->count()*ENEMY1_SCORE;
 		score+=this->enemyLayer->m_pAllEnemy2->count()*ENEMY2_SCORE;

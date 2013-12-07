@@ -132,7 +132,7 @@ void EnemyLayer::enemy1MoveFinished(CCNode* pSender)
 
 void EnemyLayer::enemy1Blowup(Enemy* enemy1)
 {
-	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/enemy1_down.mp3");
+	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("enemy1_down.mp3");
 	CCAnimation* animation=CCAnimationCache::sharedAnimationCache()->animationByName("Enemy1Blowup");
 	CCAnimate* animate=CCAnimate::create(animation);
 	CCCallFuncND* removeEnemy1=CCCallFuncND::create(this,callfuncND_selector(EnemyLayer::removeEnemy1),(void*)enemy1);
@@ -218,7 +218,7 @@ void EnemyLayer::enemy2MoveFinished(CCNode* pSender)
 
 void EnemyLayer::enemy2Blowup(Enemy* enemy2)
 {
-	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/enemy2_down.mp3");
+	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("enemy2_down.mp3");
 	CCAnimation* animation=CCAnimationCache::sharedAnimationCache()->animationByName("Enemy2Blowup");
 	CCAnimate* animate=CCAnimate::create(animation);
 
@@ -313,7 +313,7 @@ void EnemyLayer::enemy3MoveFinished(CCNode* pSender)
 
 void EnemyLayer::enemy3Blowup(Enemy* enemy3)
 {
-	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/enemy3_down.mp3");
+	CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("enemy3_down.mp3");
 	CCAnimation* animation=CCAnimationCache::sharedAnimationCache()->animationByName("Enemy3Blowup");
 
 	CCAnimate* animate=CCAnimate::create(animation);
