@@ -530,6 +530,15 @@ void GameLayer::updateBigBoomItem(int bigBoomCount)
 		{
 			this->removeChildByTag(TAG_BIGBOOMCOUNT_LABEL,true);
 		}
+        if (bigBoomCount>=0 && bigBoomCount<=MAX_BIGBOOM_COUNT)
+		{
+			CCString* strScore=CCString::createWithFormat("X%d",bigBoomCount);
+			bigBoomCountItem=CCLabelBMFont::create(strScore->m_sString.c_str(),"font.fnt");
+			bigBoomCountItem->setColor(ccc3(143,146,147));
+			bigBoomCountItem->setAnchorPoint(ccp(0,0.5));
+			bigBoomCountItem->setPosition(ccp(normalBomb->getContentSize().width+15,normalBomb->getContentSize().height/2+5));
+			this->addChild(bigBoomCountItem,0,TAG_BIGBOOMCOUNT_LABEL);
+		}
 	}
 	else
 	{

@@ -1325,37 +1325,37 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				315AE8881853794C00D2ADC9 /* Enemy.cpp */,
+				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
+				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
+				310E322C185306B100FBBA4B /* AppMacros.h */,
 				315AE88E18537B1200D2ADC9 /* BulletLayer.cpp */,
 				315AE88F18537B1200D2ADC9 /* BulletLayer.h */,
-				315AE8891853794C00D2ADC9 /* Enemy.h */,
-				315AE89A1853813600D2ADC9 /* MutiBulletsLayer.cpp */,
-				315AE89B1853813600D2ADC9 /* MutiBulletsLayer.h */,
-				315AE88A1853794C00D2ADC9 /* EnemyLayer.cpp */,
 				315AE89D1853837C00D2ADC9 /* ControlLayer.cpp */,
 				315AE89E1853837C00D2ADC9 /* ControlLayer.h */,
+				315AE8881853794C00D2ADC9 /* Enemy.cpp */,
+				315AE8891853794C00D2ADC9 /* Enemy.h */,
+				315AE88A1853794C00D2ADC9 /* EnemyLayer.cpp */,
 				315AE88B1853794C00D2ADC9 /* EnemyLayer.h */,
-				315AE8A01853839800D2ADC9 /* NoTouchLayer.cpp */,
-				315AE8A11853839800D2ADC9 /* NoTouchLayer.h */,
-				315AE885185363C200D2ADC9 /* PlaneLayer.cpp */,
-				315AE886185363C200D2ADC9 /* PlaneLayer.h */,
 				315AE87F18535E9900D2ADC9 /* GameLayer.cpp */,
 				315AE88018535E9900D2ADC9 /* GameLayer.h */,
-				315AE89118537C1100D2ADC9 /* UFOLayer.cpp */,
 				315AE89418537FB000D2ADC9 /* GameOverLayer.cpp */,
 				315AE89518537FB000D2ADC9 /* GameOverLayer.h */,
 				315AE89618537FB000D2ADC9 /* GameOverScene.cpp */,
 				315AE89718537FB000D2ADC9 /* GameOverScene.h */,
-				315AE89218537C1100D2ADC9 /* UFOLayer.h */,
 				315AE88118535E9900D2ADC9 /* GameScene.cpp */,
 				315AE88218535E9900D2ADC9 /* GameScene.h */,
-				310E322C185306B100FBBA4B /* AppMacros.h */,
+				315AE89A1853813600D2ADC9 /* MutiBulletsLayer.cpp */,
+				315AE89B1853813600D2ADC9 /* MutiBulletsLayer.h */,
+				315AE8A01853839800D2ADC9 /* NoTouchLayer.cpp */,
+				315AE8A11853839800D2ADC9 /* NoTouchLayer.h */,
+				315AE885185363C200D2ADC9 /* PlaneLayer.cpp */,
+				315AE886185363C200D2ADC9 /* PlaneLayer.h */,
+				315AE89118537C1100D2ADC9 /* UFOLayer.cpp */,
+				315AE89218537C1100D2ADC9 /* UFOLayer.h */,
 				310E31F6185303BB00FBBA4B /* WelcomeLayer.cpp */,
 				310E31F7185303BB00FBBA4B /* WelcomeLayer.h */,
 				310E31F8185303BB00FBBA4B /* WelcomeScene.cpp */,
 				310E31F9185303BB00FBBA4B /* WelcomeScene.h */,
-				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
-				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -2200,7 +2200,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: wang jiangang (MU6HZAD5H4)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2250,7 +2250,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: wang jiangang (MU6HZAD5H4)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
