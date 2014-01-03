@@ -30,6 +30,8 @@ THE SOFTWARE.
 #include "WelcomeScene.h"
 #include "AppMacros.h"
 
+#import "GameKitHelper.h"
+
 USING_NS_CC;
 using namespace std;
 
@@ -97,6 +99,10 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     // set FPS. the default value is 1.0/60 if you don't call this
     pDirector->setAnimationInterval(1.0 / 60);
+    
+    
+    // GameCenter Log In
+    [[GameKitHelper sharedGameKitHelper] authenticateLocalUser];
 
     // create a scene. it's an autorelease object
     WelcomeScene *pScene = WelcomeScene::create();
